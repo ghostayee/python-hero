@@ -1,4 +1,6 @@
 fruits = ["bananas", "mango", "oranges"]
-print(fruits[0])
-for i in fruits():
-    print(i)
+fruits.append("mango")
+print(fruits[1],)
+
+for fruit in fruits:
+    print(fruit)

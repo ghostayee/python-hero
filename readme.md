@@ -19,3 +19,37 @@ Variables
 > x, y, z =1, 2, 3
 
 
+
+>-- FUNCTIONS 
+python functions are reusable blocks of code accept inputs and parameters 
+
+>-- modularity 
+>-- avoid repeat
+
+>--- when * i used then its unpacking 
+in this manner any function for example:
+
+def order-pizza(size, *toppings, **details):
+    print(f"you ordered {size} pizza with the following toppings:")
+    for topping in toppings
+    print(f"-{topping}")
+
+
+Decorator function:
+>-- add something to base function without changing it 
+we use a wrapper function 
+def wrapper():
+    print("add some chicken peri")
+    return
+
+
+loops and condition
+>-- for i in fruits:
+print(i)
+short hand if else statement 
+>-- print("you can't vote") if age < 18 else print("you can vote done") 
+print("done")
+
+>-- list
+they are mutable
+can be accessed by index
