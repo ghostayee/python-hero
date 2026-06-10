@@ -45,7 +45,9 @@ def wrapper():
 
 loops and condition
 >-- for i in fruits:
-print(i)
+>--print(i)
+
+
 short hand if else statement 
 >-- print("you can't vote") if age < 18 else print("you can vote done") 
 print("done")
@@ -53,3 +55,25 @@ print("done")
 >-- list
 they are mutable
 can be accessed by index
+
+
+list1.extend(list2)
+fruits.append("mango")
+insert >--- list.insert(0, "python)
+
+>-- dictionaries are ordered mutable and unique
+>-- dict = {
+"usa":"washington"
+}
+update can add or change 
+capital.popitem()
+
+for values() and keys()
+
+
+>-- sets 
+no duplicates in sets 
+they are unordered
+
+
+.remove can help you type the value and remove
