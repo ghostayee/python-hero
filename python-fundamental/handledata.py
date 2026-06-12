@@ -1,25 +1,11 @@
-my_list = [
-    "Phase 1",
-    ". Python Foundations",
-    "Master:",
-    "• Variables and data types",
-    "• Functions",
-    "• Loops and conditions",
-    "• Lists, dictionaries, tuples, sets",
-]
+my_list = "Lists, dictionaries, tuples, sets\n"
 
+file1 = open("my-data-center", "w")
+file1.write(f"{my_list}")
 
-file1 = open("my-data", "a")
-for list in my_list:
-    file1.write(my_list)
+file1 = open("my-data-center", "a")
+file1.write("hello world the first step \nThe most interactive part")
 
-file2 = open("my-data", "r")
-content = file2.read()
-print(f"these are the contents:{content}")
-
-
-file = open("honor", "w")
-file.write("Honor dad and mum ")
-
-file = open("honor", "a")
-file.write("pleasure to be your dad and mum ")
+file1 = open("my-data-center", "r")
+for data in file1:
+    file1.write(data)
