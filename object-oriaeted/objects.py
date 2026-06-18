@@ -1,8 +1,9 @@
 class Dog:
     
     
-    def hiss(self):
-        return "good cat"
+    def hiss(self, x):
+        print("me or her ")
+        return x + 1
     
     
     
@@ -13,8 +14,4 @@ class Dog:
         
 dog1 = Dog()
 dog1.bark()
-dog1.hiss()
-
-
-print(type(dog1))
-print(dog1)
+print(dog1.hiss(8))

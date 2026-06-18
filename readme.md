@@ -77,3 +77,11 @@ they are unordered
 
 
 .remove can help you type the value and remove
+
+
+>-- Files handling in python 
+
+r = read
+a = append
+w = write
+x = create
